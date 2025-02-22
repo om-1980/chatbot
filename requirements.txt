@@ -1,0 +1,11 @@
+playsound==1.2.2
+pyaudio
+pillow
+gtts
+scikit-learn
+nltk
+tf-keras
+torch
+tensorflow
+transformers
+speechrecognition

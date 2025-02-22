@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello! Welcome to Hablis Hotel. How can I assist you?", "Hi there! This is Hablis Hotel. How can I help you today?", "Greetings from Hablis Hotel! How may I assist you?"]
+    },
+    {
+      "intent": "hotel_info",
+      "patterns": ["Tell me about Hablis Hotel", "What are the services at Hablis?", "Give me details about Hablis Hotel", "What facilities does Hablis offer?", "Tell me about Hablis"],
+      "responses": ["Hablis Hotel is a luxury business hotel in Chennai, offering premium rooms, fine dining, spa services, and event venues. Would you like more details about rooms, dining, or events?"]
+    },
+    {
+      "intent": "room_availability",
+      "patterns": ["Are rooms available?", "Do you have any vacant rooms?", "Can I book a room for today?", "Is there any room left?"],
+      "responses": ["Yes, rooms are available. Would you like to book one?"]
+    },
+    {
+      "intent": "room_price",
+      "patterns": ["What is the price of a room?", "How much does a room cost?", "Tell me the room rates", "What are your room charges?"],
+      "responses": ["Room prices start from ₹5,000 per night, depending on the type."]
+    },
+    {
+      "intent": "room_types",
+      "patterns": ["What types of rooms are available?", "Tell me about room categories", "Do you have deluxe rooms?", "Are there suites in your hotel?"],
+      "responses": ["We offer Deluxe, Executive, and Suite rooms."]
+    },
+    {
+      "intent": "hotel_facilities",
+      "patterns": ["What facilities does the hotel offer?", "Do you have a swimming pool?", "Tell me about your amenities"],
+      "responses": ["We have a swimming pool, gym, spa, banquet hall, and fine dining restaurant."]
+    },
+    {
+      "intent": "restaurant",
+      "patterns": ["Is there a restaurant in the hotel?", "Can I get food at the hotel?", "What dining options are available?"],
+      "responses": ["Our hotel has a multi-cuisine restaurant, café, and room service."]
+    },
+    {
+      "intent": "banquet",
+      "patterns": ["Do you have a banquet hall?", "Can I book a banquet for an event?", "Do you have conference rooms?"],
+      "responses": ["Yes, we have a banquet hall for events, conferences, and weddings."]
+    },
+    {
+      "intent": "spa",
+      "patterns": ["Do you have a spa?", "Is there a wellness center?", "Can I book a massage?"],
+      "responses": ["Yes, we offer spa and wellness services for relaxation."]
+    },
+    {
+      "intent": "parking",
+      "patterns": ["Is parking available?", "Do you have parking space?", "Can I park my car at the hotel?"],
+      "responses": ["Yes, we offer free parking for all guests."]
+    },
+    {
+      "intent": "wifi",
+      "patterns": ["Is WiFi available?", "Do you have free internet?", "Can I use WiFi in my room?"],
+      "responses": ["Yes, free high-speed WiFi is available throughout the hotel."]
+    },
+    {
+      "intent": "discounts",
+      "patterns": ["Are there any discounts?", "Do you have any offers?", "Can I get a special deal?", "Any promotions available?"],
+      "responses": ["Yes, we offer discounts for online bookings and long stays."]
+    },
+    {
+      "intent": "checkin_checkout",
+      "patterns": ["What is the check-in time?", "What time is check-out?", "What are your check-in and check-out times?"],
+      "responses": ["Check-in is at 2 PM, and check-out is at 12 PM."]
+    },
+    {
+      "intent": "location",
+      "patterns": ["Where is the hotel located?", "Give me the hotel address", "How do I reach your hotel?"],
+      "responses": ["We are located in Chennai, near the airport."]
+    },
+    {
+      "intent": "room_services",
+      "patterns": ["Do you have room service?", "Can I order food to my room?", "Is 24-hour room service available?"],
+      "responses": ["Yes, we offer 24/7 room service."]
+    },
+    {
+      "intent": "cancellation_policy",
+      "patterns": ["What is your cancellation policy?", "Can I cancel my booking?", "Is there a refund on cancellations?"],
+      "responses": ["Yes, bookings can be canceled 24 hours before check-in without charges."]
+    },
+    {
+      "intent": "payment_options",
+      "patterns": ["What payment methods do you accept?", "Can I pay by card?", "Do you accept UPI?"],
+      "responses": ["We accept cash, credit/debit cards, UPI, and international credit cards."]
+    },
+    {
+      "intent": "pet_policy",
+      "patterns": ["Are pets allowed?", "Can I bring my dog?", "Is the hotel pet-friendly?"],
+      "responses": ["No, we do not allow pets in the hotel premises."]
+    },
+    {
+      "intent": "fitness_center",
+      "patterns": ["Do you have a gym?", "Is there a fitness center?", "Can I work out at the hotel?"],
+      "responses": ["Yes, our hotel has a fully equipped fitness center."]
+    },
+    {
+      "intent": "transportation",
+      "patterns": ["Do you provide airport pickup?", "Can I get a taxi from the hotel?", "Is there a pickup service?"],
+      "responses": ["Yes, we provide airport pickup and drop services upon request."]
+    },
+    {
+      "intent": "luxury_services",
+      "patterns": ["Do you have a VIP lounge?", "Can I book a personal butler?", "Do you provide limousine service?"],
+      "responses": ["Yes, we offer VIP lounges, personal butler service, and limousine rentals."]
+    },
+    {
+      "intent": "eco_friendly",
+      "patterns": ["Do you use eco-friendly products?", "Is your hotel sustainable?", "Do you have electric car charging?"],
+      "responses": ["Yes, we are an eco-friendly hotel with sustainable practices and EV charging stations."]
+    },
+    {
+      "intent": "entertainment",
+      "patterns": ["Do you have live music nights?", "Is there an outdoor movie theater?", "Are there cultural events?"],
+      "responses": ["Yes, we host live music, movie nights, and cultural events for our guests."]
+    }
+  ]
+}
+
+
